@@ -1,25 +1,66 @@
-<!DOCTYPE html></DOCTYPE>
-<html>
-    <head>
-        <title>My Awesome Page </title>
-        <link rel="stylesheet" href="test.css">
-    </head>
-<body>
-<h1>Jennifer Peng</h1>
-<h2>“Cat Lover”</h2>
+body{
+background-color: #6074AB;
+    color: #fff;
+font-family: Cambria;
+}
+h1{
+background-color: black; 
+border: #fff;
+border-radius: 15px;
+padding: 15px;
+font-size: 4em;
+}
+h2{
+    text-align:center;
+    font-size: 1.6em
+}
+h3{
+font-size: 1.4em;
+border-left: double 20px rgb(rgb(3, 97, 147), green, blue);
+}
+p{
+line-height: 2.2em;
+font-size: 1.2em;
+}
+img{
+    float:left;
+border:rgb(0, 0, 0) solid 3px;
+margin-right: 2.5px
+}
+a:link {
+    color:rgb(192, 193, 194);
+    text-decoration: none;}
 
-<h3>Shows</h3>
-<p> <img src="image/Gachiakuta.jpg"> Many of the shows I watch are <a href="https://www.livechart.me/fall-2025/tv" target="_blank"> animated shows</a> because I don’t like how real actors act. This all started during COVID when I was sent home with nothing to do so I watched various animated shows on youtube. I found those shows really interesting so I continued to watch them and eventually I was watching multiple episodes a day. Now the volume of my consumption has slowed but I still find myself watching these shows from time to time. Recently the genre I find myself leaning towards are coming of age and action stories. </p>
+a:visted {
+    color:#51618e
+}
+a:hover {
+    color:rgb(37, 46, 90)
+}
+a:active {
+    color:#a9bdf6
+}
+#pic1{
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 175px;
+}
 
-<h3>Music</h3>
-<p> <img src="image/PTV.JPG">My friends tell me I have a pretty weird taste in music since I actually don’t have a music preference. My playlist is just songs I like and songs I don’t like. But even so, I do have some biases. I prefer songs that are loud and make me feel like I’m at a concert. At the start I liked songs with a lighter feeling like kpop, but recently I’ve started to move toward <a href="https://discover.hubpages.com/entertainment/100-Best-Rock-Bands-of-the-2010s" target="_blank"> 2010's rock bands</a> or experimental stuff. Despite this new shift, my playlist still contains a random jumble of genre’s which I all play on shuffle. I listen to this playlist everywhere and everyday too, even when I’m studying I can just tune out both the screaming from rock and the light melodies from pop to the point where they all sound the same.</p>
+#pic2{
+    width:250px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#pic3{
+    width:250px;
+}
 
-<h3>Pets</h3>
-<p><img src="image/KOKO.jpg">After months of begging my parents to let me go to the <a href="https://www.sdhumane.org/" target="_blank"> animal shelter</a>, I got my first cat in 2021, her name is Mochi. Mochi is a latte colored cat, but she’s pretty fat so I think she’d be a chewy cat, hence her name. Mochi’s also slightly outeyed and can’t really fight since her hands are small. My second cat was mysteriously brought home one night by my mom in 2022. I named her Koko to make her different from the other cats named Coco. This is because, according to my mom, Koko was outcast from the other cats because she was too weird. Koko’s a cow type, black and white fur, lazy, and slightly stupid. </p>
+#highlight{
+    font-weight: bold;
+    background-color:aliceblue
+}
 
-
-
-
-
-</body>
-    </html>
+#container{
+    width: 800px;
+    background-color: rgb(76, 82, 131)
+}
