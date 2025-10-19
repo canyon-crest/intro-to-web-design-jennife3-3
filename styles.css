@@ -1,12 +1,14 @@
 body{
-background-color: #6074AB;
+  background-image: url("images/flowers.jpg");
     color: #fff;
+      background-size: cover;
 font-family: Cambria;
+padding: 30px
 }
 h1{
 background-color: black; 
 border: #fff;
-border-radius: 15px;
+border-radius: 60px;
 padding: 15px;
 font-size: 4em;
 text-align: center;
@@ -23,8 +25,9 @@ margin-left: 20px
 }
 p{
 line-height: 2.2em;
-font-size: 1.2em;
-background-color:#4d5f8f
+font-size: 1.4em;
+background-color:#4d5f8f;
+margin: 15px;
 }
 img{
     float:left;
@@ -32,17 +35,17 @@ border:rgb(0, 0, 0) solid 3px;
 margin-right: 2.5px
 }
 a:link {
-    color:rgb(183, 255, 0);
+    color:rgb(38, 26, 95);
     font-style: italic;
     text-decoration-color: #a9bdf6;
-    background-color: #9e9ac0;
+    background-color: #b1aec8;
 }
 
 a:visted {
-    color:#a9ccd4
+    color:#444479
 }
 a:hover {
-    color:rgb(180, 229, 233)
+    color:rgb(70, 77, 116)
 }
 a:active {
     color:#a9bdf6
@@ -54,23 +57,26 @@ a:active {
 }
 
 #pic2{
-    width:250px;
+    width:300px;
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    float:right
 }
 #pic3{
     width:250px;
-}
-
-#highlight{
-    font-weight: bold;
-    background-color:aliceblue
+    margin-top: 30px;
+    margin-bottom: 15px;
+     margin-right: 15px;
+    margin-left: 15px;
 }
 
 #container{
-    width: 1000px;
-    background-color: rgb(98, 103, 147)
-
+    width: 1100px;
+    background-color: rgb(17, 18, 30);
+    padding: 30px;
+    margin:auto
 }
 
 
@@ -115,4 +121,9 @@ a:active {
         border:none;
         width: 100px
     }
+}
+.highlight{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #2e406e;
 }
