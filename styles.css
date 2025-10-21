@@ -7,6 +7,7 @@ body{
   cursor: url("cursor/hachi.cur") 32 32, auto;
 }
 
+
 h1{
   background-color: black;
   border-radius: 60px;
@@ -47,6 +48,28 @@ img{
   border: 3px solid rgb(0, 0, 0);
   margin-right: 2.5px;
 }
+
+
+
+img, #pic1, #pic2, #pic3{
+  float: left;
+  border: 3px solid rgb(0, 0, 0);
+  margin-right: 2.5px;
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeUp 600ms ease forwards;
+  will-change: opacity, transform;
+}
+
+#pic1 { animation-delay: 0.06s; }
+#pic2 { animation-delay: 0.60s; }
+#pic3 { animation-delay: 1.30s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(-80px); }
+  to   { opacity: 1; transform: none; }
+}
+
 
 a:link {
   color: rgb(38, 26, 95);
@@ -154,13 +177,11 @@ a:active {
   #sidebar{
     display: none;
   }
-  img, #pic1, #pic2, #pic3{
-    float: none;
-    border: none;
-    width: 95%;
-    margin: 0 auto;
-    padding: 15px;
-  }
+img, #pic1, #pic2, #pic3{
+  float: left;
+  border: 3px solid rgb(0, 0, 0);
+  margin-right: 2.5px;
+}
   #container, body{
     margin: 0 auto;
     padding: 4px;
@@ -171,4 +192,12 @@ a:active {
   font-weight: bold;
   border-radius: 5px;
   background-color: #2e406e;
+}
+
+.dropdown{
+  position: right;
+  display:inline-block;
+  margin-bottom:3em;
+  font-size: .92em;
+  padding: 5px;
 }
