@@ -138,7 +138,8 @@ h1{
         padding: justify; 
     }    
 }
-@media (max-wdith: 760px){
+
+@media (max-wdith: 700px){
     #sidebar{
         display: none;
     }
@@ -153,6 +154,7 @@ margin:0 auto;
 padding: 4px;
     }
 }
+
 .highlight{
     font-weight: bold;
     border-radius: 5px;
